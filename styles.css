@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-section-1 {
+   background-color: #1f2937;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-logo-text {
+    font-size: 24px;
+}
+
+.logo-container {
+    margin-left: 200px;
+    
+}
+
+.header-links {
+    margin-right: 200px;
+}
+
+.header-section-2 {
+   background-color: #1f2937;
+   color: white;
+   display: flex;
+   flex-direction: column;
+}
+
+.header-section-large-text {
+    font-size: 48px;
+}
+.header-section-small-text {
+    font-size: 18px;
+}
+
+.header-box {
+    background-color: #8c8d8f;
+    height: 100px;
+    width: 350px;
+    text-align: center;
+}
+
+.header-box-text {
+    margin-top: 45px;
+}
