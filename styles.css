@@ -25,6 +25,18 @@ body {
     margin-right: 200px;
 }
 
+.header-link-1 {
+    padding:16px;
+}
+
+.header-link-1 {
+    padding: 16px;
+}
+
+.header-link-3 {
+    padding: 16px;
+}
+
 .header-section-2 {
    background-color: #1f2937;
    color: white;
