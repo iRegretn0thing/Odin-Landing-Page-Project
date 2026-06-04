@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+/* Top of page. Has logo and links.  */
 .header-section-1 {
    background-color: #1f2937;
    color: white;
@@ -16,9 +17,8 @@ body {
     font-size: 24px;
 }
 
-.logo-container {
+.header-logo-container {
     margin-left: 200px;
-    
 }
 
 .header-links {
@@ -38,12 +38,18 @@ body {
     padding: 16px;
 }
 
+/* Header section with text, button and image box. */
 .header-section-2 {
    background-color: #1f2937;
    color: white;
    display: flex;
    justify-content: space-between;
-   height: 350px; 
+   height: 400px; 
+}
+
+/* Left container with text and button. */
+.header-text-button-container {
+    width: 500px;
 }
 
 .header-section-large-text {
@@ -55,6 +61,18 @@ body {
     margin-left: 200px;
 }
 
+.button-container-1 {
+      margin-left: 200px;
+}
+
+.header-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+
+/* Right container for image box. */
 .header-box {
     background-color: #8c8d8f;
     height: 150px;
@@ -68,6 +86,11 @@ body {
     margin-top: 65px;
 }
 
-.header-text-button {
-    width: 500px;
+/* Classes and container for mid section h2 element.*/
+.middle-section-header-container {
+    height: auto;
+}
+
+.middle-section-header {
+    text-align: center;
 }
