@@ -92,5 +92,41 @@ body {
 }
 
 .middle-section-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
     text-align: center;
+}
+
+/* Container for middle boxes.*/
+.middle-blue-box-container {
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+}
+
+/* Styles for all 4 middle boxes. */
+.box-1, .box-2, .box-3, .box-4 {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+/* Container and styles for middle box sub text. */
+.middle-box-text-container {
+    justify-content: center;
+    display: flex;
+    gap: 67px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+/* Container and styles for quote section. */
+.quote-container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-align: center;
+    padding: 70px;
+    font-size: 36px;
+    font-style: italic;
 }
