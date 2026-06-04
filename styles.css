@@ -26,16 +26,8 @@ body {
     font-size: 18px;
 }
 
-.header-link-1 {
+.header-link-1, .header-link-2, .header-link-3 {
     padding:16px;
-}
-
-.header-link-1 {
-    padding: 16px;
-}
-
-.header-link-3 {
-    padding: 16px;
 }
 
 /* Header section with text, button and image box. */
@@ -89,6 +81,7 @@ body {
 /* Classes and container for mid section h2 element.*/
 .middle-section-header-container {
     height: auto;
+    padding-top: 30px;
 }
 
 .middle-section-header {
@@ -127,6 +120,64 @@ body {
     color: #1f2937;
     text-align: center;
     padding: 70px;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
+    padding-bottom: 70px;
+}
+
+.quote-text {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.quote-author {
+    text-align: right;
+    padding-top: 30px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 300px;
+}
+
+/* Bottom sign up section. */
+.bottom-box {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 100px;
+}
+
+.sign-up-header {
+    padding: 45px 0px 4px 95px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.sign-up-body {
+    padding: 0px 0px 45px 95px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.sign-up-button {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 26px 10px 26px;
+    margin: auto;
+}
+
+/* Footer section.*/
+.footer-banner {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px;
+    font-size: 11px;
+    font-weight: lighter;
 }
