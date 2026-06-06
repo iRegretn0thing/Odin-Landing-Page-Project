@@ -15,6 +15,7 @@ body {
 
 .header-logo-text {
     font-size: 24px;
+    color: #e5e7eb;
 }
 
 .header-logo-container {
@@ -28,6 +29,7 @@ body {
 
 .header-link-1, .header-link-2, .header-link-3 {
     padding:16px;
+    color: #e5e7eb;
 }
 
 /* Header section with text, button and image box. */
@@ -51,6 +53,8 @@ body {
 .header-section-small-text {
     font-size: 18px;
     margin-left: 200px;
+    font-weight: 100;
+    color: #e5e7eb;
 }
 
 .button-container-1 {
@@ -126,8 +130,8 @@ body {
 }
 
 .quote-text {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .quote-author {
@@ -136,7 +140,7 @@ body {
     font-size: 25px;
     font-style: normal;
     font-weight: bold;
-    margin-right: 300px;
+    margin-right: 100px;
 }
 
 /* Bottom sign up section. */
@@ -178,6 +182,6 @@ body {
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 16px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: lighter;
 }
